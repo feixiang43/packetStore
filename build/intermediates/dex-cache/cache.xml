@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3f0ec2d0175d847d846c2566458a6ac21b7716e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_e975a43c798d191f6a4d8e10aa8a051f01b657a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_972ecfc6f52868bbd6a1e569e356edeb2d7c3cc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_6af14fec59673e7a6c95d79625297afe80c3bc23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_00f12429250cd54c2fbcc3ea2ab1edbdb580fe8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5286af5bf6f56301a0f2aee8612a944fec3a97d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_de30ed2be84cc6f7b14c595a5399156071239973.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_4d4276493e325302861a2a7ee7e6f53bcef80a57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_dee81094d3adb11115c0f71b87b45b979803b042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_e65f7f61d311ea588ba1270c8f195b3c27275761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_59732f434cadea09916c774cce7bd5a00ca7d38d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_a09da9fd59afbba8a4bb64bdd3ebacb51b606ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ce50e259d3bec062a064db33a5670db428fc99fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a473bd1f85603960b771c6e526030ce0bbc09f2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/fei/Downloads/Android-BagStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_13324a331b64414ad2a85d6d9f5156c3167259c2.jar" />
+    </item>
+
+</items>
