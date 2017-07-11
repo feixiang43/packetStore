@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/shape_wihte_frame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:padding="1dp"
+        android:text="取件码"
+        android:textSize="11sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#EEEFFF" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/view1"
+        android:background="@drawable/shape_wihte_frame"
+        android:ems="19"
+        android:hint="请输入手机号"
+        android:inputType="phone"
+        android:padding="1dp"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/del_phonenumber"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp"
+        android:visibility="invisible" />
+</RelativeLayout>

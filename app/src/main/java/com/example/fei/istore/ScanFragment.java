@@ -3,10 +3,14 @@ package com.example.fei.istore;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.v4.app.Fragment;
+import android.text.InputType;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,6 +27,8 @@ public class ScanFragment extends Fragment {
     private InputStream mScannerInputStream;
     private String barcode = null;
     private Thread scanThread = null;
+    private RelativeLayout mRelativeLayout;
+    private Button mInputButton;
 
     @Override
     public void onCreate(Bundle onSavedInstanceStat){
@@ -73,6 +79,15 @@ public class ScanFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle onSavedInstanceStat){
         View view = inflater.inflate(R.layout.fragment_scan, parent, false);
+        mRelativeLayout = (RelativeLayout) view.findViewById(R.id.layout_input);
+        mInputButton = (Button) view.findViewById(R.id.button_barcode);
+        mInputButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mRelativeLayout.removeView(mInputButton);
+                mRelativeLayout.addView(createView());
+            }
+        });
         return view;
     }
 
@@ -96,4 +111,23 @@ public class ScanFragment extends Fragment {
         scanThread.interrupt();
 
     }
+
+    /*
+    protected View createView(){
+        EditText mEditText = new EditText(getContext());
+        //mEditText.setId();
+        mEditText.setHint("please input barcode");
+        mEditText.setInputType(InputType.TYPE_CLASS_NUMBER);
+        mEditText.setHeight(50);
+        mEditText.setWidth(200);
+        return  mEditText;
+    }
+    */
+
+    protected View createView(){
+        LayoutInflater inflater = (LayoutInflater)getContext().getSystemService( getContext().LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.layout_barcode_input, null);
+        return view;
+    }
+
 }
